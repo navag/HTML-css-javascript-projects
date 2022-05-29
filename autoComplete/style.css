@@ -15,15 +15,14 @@ body {
 }
 
 .input-container {
-  display: flex;
   position: relative;
-  align-items: center;
   width: 30%;
 }
 
 .close {
   position: absolute;
   right: 0.5rem;
+  bottom: 0.25rem;
   cursor: pointer;
   color: grey;
 }
