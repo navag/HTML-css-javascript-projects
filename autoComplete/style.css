@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darksalmon;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  left: 40%;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.input-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 30%;
+}
+
+.close {
+  position: absolute;
+  right: 0.5rem;
+  cursor: pointer;
+  color: grey;
+}
+
+input {
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid grey;
+  padding-left: 4px;
+  
+}
+
+input:focus {
+  border: 1px solid black;
+}
+
+.dropdown-list {
+  display: none;
+  width: 30%;
+  border: 1px solid grey;
+  box-shadow: 0 4px 8px rgb(32 33 36 / 28%);
+  border-top: none;
+  background-color: white;
+  margin-top: -4px;
+  max-height: 300px;
+  overflow-y: auto;
+  /* border-radius: 0 0 6px 6px; */
+}
+
+.dropdown-item {
+  padding: 2px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(241, 235, 235);
+}
