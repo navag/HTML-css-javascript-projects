@@ -11,4 +11,4 @@ this repo will contains all the small projects done by me.
 | 06  | [Progress steps](https://github.com/navag/projects/tree/main/progressSteps)                             | [Live Demo](https://navag.github.io/projects/progressSteps/)               |
 | 07  | [Toast Notifications](https://github.com/navag/projects/tree/main/toastNotification)                             | [Live Demo](https://navag.github.io/projects/toastNotification/)               |
 | 08  | [Toast Notifications](https://github.com/navag/projects/tree/main/autoComplete)                             | [Live Demo](https://navag.github.io/projects/autoComplete/)               |
-| 07  | [Toast Notifications](https://github.com/navag/projects/tree/main/square)                             | [Live Demo](https://navag.github.io/projects/square/)               |
+| 09  | [Toast Notifications](https://github.com/navag/projects/tree/main/square)                             | [Live Demo](https://navag.github.io/projects/square/)               |
