@@ -12,4 +12,4 @@ this repo will contains all the small projects done by me.
 | 07  | [Toast Notifications](https://github.com/navag/projects/tree/main/toastNotification)                             | [Live Demo](https://navag.github.io/projects/toastNotification/)               |
 | 08  | [Auto completes](https://github.com/navag/projects/tree/main/autoComplete)                             | [Live Demo](https://navag.github.io/projects/autoComplete/)               |
 | 09  | [shapes and loader](https://github.com/navag/projects/tree/main/square)                             | [Live Demo](https://navag.github.io/projects/square/)               |
-| 10  | [shapes and loader](https://github.com/navag/projects/tree/main/Notes App)                             | [Live Demo](https://navag.github.io/projects/Notes%20App/)               |
+| 10  | [shapes and loader](https://github.com/navag/projects/tree/main/NotesApp)                             | [Live Demo](https://navag.github.io/projects/NotesApp/)               |
