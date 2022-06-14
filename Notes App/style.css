@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darksalmon;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.add {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    background-color: #9ec862;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.note {
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools {
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+
+.note textarea {
+    border: none;
+    background-color: antiquewhite;
+    height: 360px;
+    width: 100%;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+.note .main {
+    padding: 1rem;;
+}
+.note textarea:focus {
+    border: 3px solid #9ec862;
+    border-top: none;
+    outline: none;
+}
+
+.tools::after {
+    content: '';
+    border: 20px solid;
+    border-color: darksalmon antiquewhite antiquewhite darksalmon;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.hidden {
+    display: none;
+}
